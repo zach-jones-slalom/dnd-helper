@@ -31,7 +31,14 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+Verify compliance with `.specify/memory/constitution.md`:
+
+- [ ] **Code Quality & Consistency**: Plan includes linting validation and formatting standards enforcement
+- [ ] **Single Responsibility**: Each module/component has one clear purpose; no "god objects" planned
+- [ ] **Test-Driven Development**: 80%+ coverage target confirmed; test strategy defined (unit + integration)
+- [ ] **Error Handling**: Plan includes try-catch blocks at API boundaries, user-facing error messages, logging strategy
+- [ ] **Maintainability**: Code organization follows DRY/KISS principles; JSDoc planned for public APIs
+- [ ] **Design System Adherence**: UI work references ui-guidelines.md (color palette, 8px grid, typography scale, light/dark modes)
 
 ## Project Structure
 
